@@ -3,10 +3,10 @@ READEME
 该项目是一个富有创意、情怀的小游戏，游戏逻辑：寻找钥匙，打开门
 
 ## 学习后的成长
-1 原生canvas写H5游戏的基本套路
-2 脱离框架从实战的角度 理解 编写可维护、可扩展的JS
-3 罕见的撩妹套路、单身狗收藏下～
-4 脱离业务，探索前端真正的乐趣
+* 原生canvas写H5游戏的基本套路
+* 脱离框架从实战的角度 理解 编写可维护、可扩展的JS
+* 罕见的撩妹套路、单身狗收藏下～
+* 脱离业务，探索前端真正的乐趣
 
 ## 阅读须知
 前置技能 ： 熟悉canvas的基本API和一定的JS基础
@@ -49,11 +49,11 @@ window.requestAnimationFrame();
   参考源码实现
   
 5 动画性能优化（一点思考🤔）
-  a 使用requestAnimationFrame
-  b 利用剪辑区域调出变化的部分处理，切忌整个canvas重绘
-  c 利用离屏canvas充当缓冲区，把需要重复绘制的部分缓存起来，减少API的消耗
-  d 尽量利用CSS，背景大图可以用CSS的就别用canvas画出来
-  e 尽量不要在循环中使用耗时的API，如drawImage、putImageData
-  f 避免浮点数的运算，当数过小的时候，手动置0
+  * 使用requestAnimationFrame
+  * 利用剪辑区域调出变化的部分处理，切忌整个canvas重绘
+  * 利用离屏canvas充当缓冲区，把需要重复绘制的部分缓存起来，减少API的消耗
+  * 尽量利用CSS，背景大图可以用CSS的就别用canvas画出来
+  * 尽量不要在循环中使用耗时的API，如drawImage、putImageData
+  * 避免浮点数的运算，当数过小的时候，手动置0
 
 
